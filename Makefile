@@ -36,4 +36,4 @@ clean:
 	-rm $(CID_FILE)
 
 cli:
-	docker exec -it $(CID) /redis/src/redis-cli -p 7000
+	docker exec -it $(CID) /redis/src/redis-cli -c -p 7000
